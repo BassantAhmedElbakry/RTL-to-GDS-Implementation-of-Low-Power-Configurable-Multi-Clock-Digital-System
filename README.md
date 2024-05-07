@@ -1,8 +1,9 @@
 # RTL-to-GDS-Implementation-of-Low-Power-Configurable-Multi-Clock-Digital-System
-▪ Description: It is responsible of receiving commands through UART receiver to do different system 
+## ▪ Description: 
+It is responsible of receiving commands through UART receiver to do different system 
 functions as register file reading/writing or doing some processing using ALU block and send result as well 
 as CRC bits of result using 4 bytes frame through UART transmitter communication protocol.                  
-▪ Project phases:  
+## ▪ Project phases:  
 ➢ RTL Design from Scratch of system blocks (ALU, Register File, Synchronous FIFO, Integer Clock 
 Divider, Clock Gating, Synchronizers, Main Controller, UART TX, UART RX). 
 <br />➢ Integrate and verify functionality through self-checking testbench.  
